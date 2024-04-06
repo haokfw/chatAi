@@ -12,7 +12,7 @@ import { ChatLogService } from '../chatLog/chatLog.service';
 import { ChatLogEntity } from '../chatLog/chatLog.entity';
 import { AccountLogEntity } from '../userBalance/accountLog.entity';
 import { ConfigEntity } from '../globalConfig/config.entity';
-import { GptKeysEntity } from './gptkeys.entity';
+import { GptKeysEntity } from './gptKeys.entity';
 import { GlobalConfigService } from '../globalConfig/globalConfig.service';
 import { WhiteListEntity } from './whiteList.entity';
 import { CramiPackageEntity } from '../crami/cramiPackage.entity';
