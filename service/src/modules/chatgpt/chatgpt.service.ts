@@ -27,7 +27,7 @@ import { In, Like, MoreThan, Repository } from 'typeorm';
 import { InjectRepository } from '@nestjs/typeorm';
 import { BadwordsService } from '../badwords/badwords.service';
 import { AutoreplyService } from '../autoreply/autoreply.service';
-import { GptKeysEntity } from './gptkeys.entity';
+import { GptKeysEntity } from './gptKeys.entity';
 import { GlobalConfigService } from '../globalConfig/globalConfig.service';
 import { FanyiService } from '../fanyi/fanyi.service';
 import * as dayjs from 'dayjs';
